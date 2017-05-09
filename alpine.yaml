@@ -10,6 +10,8 @@ spec:
     metadata:
       labels:
         app: prod-web
+        io.contiv.network: guestbook-net
+        io.contiv.net-group: guestbook-group
     spec:
       containers:
       - name: prod-web
