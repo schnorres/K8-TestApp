@@ -10,6 +10,7 @@ spec:
     metadata:
       labels:
         app: prod-web
+        
     spec:
       containers:
       - name: prod-web
